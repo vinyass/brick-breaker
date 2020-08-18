@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brick Breaker</title>
+
+    <style>
+      #gameScreen {
+        border: 1px solid black;
+      }
+      img {
+        display: none;
+      }
+    </style>
+    <script type="module" defer src="./src/index.js"></script>
+  </head>
+  <body>
+    <img id="gameBall" src="./assets/images/ball.png" alt="ball" />
+    <img id="gameBrick" src="./assets/images/brick.png" alt="brick" />
+    <canvas id="gameScreen" width="800" height="600"></canvas>
+  </body>
+</html>
